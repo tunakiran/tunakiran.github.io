@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Atena</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="svg/user-md.svg" type="image/x-icon">
+    <link href="https://api.fontshare.com/css?f[]=satoshi@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg m-2 br1 bg-glass sticky-top fs20">
+            <div class="container-fluid">
+                <a href="index.html" class="d-flex text-decoration-none align-items-center pe-1">
+                    <img src="svg/user-md.svg" width="50px" height="50px" alt="user-md" class="img-fluid">
+                    <span class="text-darkpurple fs25">Doctor Atena</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="svg/menu.svg" width="50px" height="50px" alt="">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link d-flex" href="#">
+                                <img id="icon" src="svg/calender.svg" width="30px" height="30px" alt="calendar">
+                                Randevu al
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-flex mx-1" href="#">
+                                <img id="icon" src="svg/question-circle.svg" width="30px" height="30px" alt="">    
+                                Sık Sorulan Sorular
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link cokertme dropdown-toggle d-flex align-items-center" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="svg/bag.svg" alt="bag" width="30px" height="30px" id="icon">
+                                Hizmetler
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item text-darkpurple" href="#">
+                                        <img src="svg/shield-plus.svg" width="35px" height="35px" alt="teeth">
+                                        Ortodonti tedavisi
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-darkpurple" href="#">
+                                        <img src="svg/prescription-bottle.svg" width="35px" height="35px" alt="prescription-bottle.">
+                                        Ağız bakım
+                                    </a>
+                                </li>
+                                <li><hr class="m-0"></li>
+                                <li>
+                                    <a class="dropdown-item text-darkpurple" href="#">
+                                        <img src="svg/head-side-mask.svg" width="35px" height="35px" alt="phone">
+                                        Covid-19 önlemlerimiz
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-1 d-flex" href="#">
+                                <img src="svg/phone-volume.svg" width="30px" height="30px" alt="phone" id="icon">
+                                Bize Ulaşın
+                            </a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2 br1 bg-glass" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn br1 bg-glass" type="submit">
+                            <img src="svg/search.svg" width="30px" height="30px" alt="">
+                        </button>
+                    </form>
+              </div>
+            </div>
+        </nav>
+        
+        <h1 class="wrapper mx-auto mt-3">Nasıl 
+            <span class="text-darkpurple words">
+                <span class="cool-span text-center">Güvenle</span>
+                <span class="cool-span text-center">Mutlu</span>
+                <span class="cool-span text-center">Özgür</span>
+                <span class="cool-span text-center">Sevgiyle</span>
+                <span class="cool-span text-center">Harika</span>
+            </span> gülümsenir?
+        </h1>
+
+        <div class="row mx-1 g-3">
+            <div class="col-lg-3">
+                <img src="img/athena-removebg-preview.png" class="img-fluid athena bg-darkpurple" alt="Athena">
+                <p class="text-end">Doktor Atena</p>
+            </div>
+            
+            <div class="col-lg-3 align-self-center relative">
+                <div class="kart">
+                    <img src="svg/corner-up-right-alt.svg" class="ok d-sm-none d-lg-block" alt="arrow" width="100px" height="100px">
+                    <div class="avatar-text br1 p-2 bg-orange shadow">
+                        <p>
+                            <h1 class="text-darkpurple"><b>1.Güvenle gülümseyin</b></h1>
+                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, vitae?</h4>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 align-self-center relative">
+                <div class="kart">
+                    <img src="svg/corner-down-right-alt.svg" class="altok" width="100px" height="100px" alt="">
+                    <div class="avatar-text br1 p-2 bg-darkpurple shadow">
+                        <p>
+                            <h1 class="text-lightpurple"><b>2.Güvenle gülümseye devam</b></h1>
+                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, vitae?</h4>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 align-self-center">
+                <div class="kart">
+                    <div class="avatar-text br1 p-2 bg-dumbpurple shadow">
+                        <p>
+                            <h1 class="text-darkpurple"><b>3.Güvenle gülümsemeyin</b></h1>
+                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, vitae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, magni.</h4>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <section class="py-8 py-md-11 mx-2 mt-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="icon text-primary mb-3">
+                            <img src="svg/lira-sign.svg" width="75px" height="75px" alt="lira sign">
+                        </div>
+                        <h2>Uygun maliyetli</h2>
+          
+                        <p class="mb-6 mb-md-0">
+                            Landkit is built to make your life easier. Variables, build tooling, documentation, and reusable components.
+                        </p>
+                    </div>
+                    
+                    <div class="col-12 col-md-4">
+                        <div class="mb-3">
+                            <img src="svg/medical-square-full.svg" width="75px" height="75px" alt="medical-square-full">
+                        </div>
+                        <h2>Hızlı tedavi</h2>
+          
+                        <p class="mb-6 mb-md-0">
+                            Landkit is built to make your life easier. Variables, build tooling, documentation, and reusable components.
+                        </p>
+                    </div>
+    
+                    <div class="col-12 col-md-4">
+                        <div class="mb-3">
+                            <img src="svg/grin.svg" width="75px" height="75px" alt="Grin face">
+                        </div>
+                        <h2>Mutlu gülümsemeler</h2>
+          
+                        <p class="mb-6 mb-md-0">
+                            Landkit is built to make your life easier. Variables, build tooling, documentation, and reusable components.
+                        </p>
+                    </div>
+                </div> <!-- / .row -->
+            </div>
+        </section>
+        
+
+        <footer class="bg-glass m-2 p-3 br1">Doctor Atena tüm hakları saklıdır</footer>
+    </div>
+    
+    
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
