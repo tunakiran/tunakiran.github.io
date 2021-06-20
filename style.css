@@ -14,6 +14,10 @@ body{
     background: var(--light-black);
 }
 
+.my-cursor{
+    cursor: url(svg/smiley.svg),auto;
+}
+
 ::selection{
     background: var(--black);
     color: var(--yellow);
@@ -87,11 +91,11 @@ hr{
 }
 /*Border Radius*/
 .br05{
-    border-radius: 0.5rem;
+    border-radius: 0.5rem !important;
 }
 
 .br1{
-    border-radius: 1rem;
+    border-radius: 1rem !important;
 }
 
 .br100{
@@ -101,7 +105,7 @@ hr{
 /*Navbar*/
 .nav-link:hover{
     color: var(--yellow) !important;
-    background: var(--dark-black);
+    background: var(--light-black);
 }
 
 .nav-link:focus{
@@ -111,7 +115,7 @@ hr{
 
 .navbar-brand:hover{
     color: var(--yellow) !important;
-    background: var(--dark-black);
+    background: var(--light-black);
 }
 
 .navbar-brand:hover #smiley{
@@ -140,6 +144,17 @@ svg{
     fill: var(--dark-black) !important;
 }
 
+#github:hover{
+    fill: var(--yellow);
+}
+
+#linkedin:hover{
+    fill: #0072b1;
+}
+
+#dribbble:hover{
+    fill: #E74D89;
+}
 /*Animation text*/
 
 .wrapper{
