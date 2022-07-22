@@ -1,0 +1,127 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+@font-face {
+    font-family: Telegraf;
+    src: url(PPTelegraf-Regular.otf);
+}
+
+.fiv{
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    transition: all .5s ease;
+}
+
+.fiv:hover{
+    transform: scale(1.10);
+}
+
+.fiv a{
+    border-color: #008000;
+}
+
+#ok{
+    vertical-align: middle;
+}
+
+:root{
+    --primary: #000;
+    --secondary: #ffffff;
+}
+
+.bg-prim{
+    background: var(--primary);
+}
+
+.bg-secon{
+    background: var(--secondary);
+}
+
+.text-prim{
+    color: var(--primary);
+}
+
+.text-secon{
+    color: var(--secondary);
+}
+
+.font-tele{
+    font-family: Telegraf, sans-serif;
+}
+
+.case{
+    border: 1px solid  #000;
+    padding: .25rem;
+    border-radius: 1rem;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.big_t{
+    font-size: 8rem;
+}
+
+.br1{
+    border-radius: 1rem;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 2rem;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.container,
+.container-fluid{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
